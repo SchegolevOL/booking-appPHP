@@ -1,0 +1,13 @@
+@extends('layouts.layout-area')
+@section('content')
+@include('layouts.home.header-content')
+    @include('layouts.home.about')
+    @include('layouts.home.service')
+   @include('layouts.home.portfolio')
+    @include('layouts.home.expertise')
+    @include('layouts.home.client')
+    @include('layouts.home.counter')
+    @include('layouts.home.testimonial')
+    @include('layouts.home.pricing')
+    @include('layouts.home.blog')
+@endsection
