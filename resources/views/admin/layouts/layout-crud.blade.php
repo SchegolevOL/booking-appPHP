@@ -10,14 +10,7 @@
 </head>
 <body>
 <div class="container">
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <a class="nav-link" href="{{route('author.create')}}">Create</a>
-        </li>
-        <li>
-            <a class="nav-link" href="{{route('admin.index')}}">Index</a>
-        </li>
-    </ul>
+
     <div class="mt-5">
         @yield('admin-content')
     </div>

@@ -1,5 +1,15 @@
 @extends('admin.layouts.layout-crud')
 @section('admin-content')
+    <ul class="nav justify-content-center">
+<li>
+    <a class="nav-link" href="{{route('author.create')}}">Create</a>
+</li>
+        <li>
+            <a class="nav-link" href="{{route('admin.index')}}">Index</a>
+        </li>
+    </ul>
+
+
     <h1 class="text-center">List Author</h1>
     <div class="container overflow-hidden text-center">
         <div class="row gy-5">

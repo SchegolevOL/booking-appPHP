@@ -22,7 +22,13 @@
             </select>
         </div>
         <div class="mb-3">
+            <label class="form-label">Image</label>
+            <input type="file" class="form-control" name="img">
+            <div  class="form-text"></div>
+        </div>
+        <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Genre : </label>
+
             <input type="checkbox" class="btn-check" name="options-base" id="option5" autocomplete="off" checked>
             <label class="btn" for="option5">Checked</label>
 
